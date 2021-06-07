@@ -1,0 +1,61 @@
+:root{
+  --font-color: rgb(43, 40, 40);
+}
+
+
+body{
+  margin: 0;
+  background: gray;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 20px;
+  border-bottom: 2px solid white;
+}
+
+header h1 {
+  text-decoration: solid;
+}
+
+header p{
+  color: var(--font-color);
+}
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*Image card */
+.card {
+  margin: auto;
+  background: #FFF;
+  border: 1px solid black;
+  padding-bottom: 25px;
+  padding: 2px;
+  display: flex;
+  align-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.image img{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.paragrafo{
+  color: var(--font-color);
+  margin: 50px;
+  padding: 10px;
+}
+
+.list li, p{
+  color: var(--font-color);
+}
+
