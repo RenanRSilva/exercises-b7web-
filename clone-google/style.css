@@ -80,7 +80,7 @@ cursor: pointer;
   padding: 15px;
   background-color: rgb(233, 232, 232);
   border: none;
-  color: rgb(37, 37, 37);
+  color: rgba(85, 82, 82, 0.918);
   margin: 1%;
 }
 
@@ -98,15 +98,16 @@ footer{
 
 .rodape1{
   background-color: rgb(233, 232, 232);
-  color: rgb(37, 37, 37);
+  color: rgba(85, 82, 82, 0.918);
   padding: 5px;
   width: 100%;
+  border-bottom: 1px solid rgba(85, 82, 82, 0.918);
 }
 
 .rodape2{
   display: flex;
   background-color: rgb(233, 232, 232);
-  color: rgb(37, 37, 37);
+  color: rgba(85, 82, 82, 0.918);
   padding: 5px;
   width: 100%;
   margin-left: 5px;
@@ -136,7 +137,6 @@ footer{
 
 .pt2{
   margin-right: 10px;
-
 }
 
 
