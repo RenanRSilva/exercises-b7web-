@@ -1,0 +1,324 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2, p{
+  font-family: 'Montserrat';
+}
+
+
+/*HEADER  */
+header{
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+.logo{
+  width: 50px;
+  height: 50px;
+  background-color: tan;
+  margin-left: 20px;
+  margin-right: 90px;
+}
+
+.menu{
+flex: 1;
+  display: flex;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul li{
+  width: auto;
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Montserrat';
+
+}
+
+
+/*  Main  */
+main{
+  background-image: url(../../media/foto2.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-position: center;
+}
+
+.content{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content h1{
+  font-family: 'Montserrat';
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.comunication{
+  color: rgb(255, 104, 58);
+  font-family: 'Montserrat';
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+.callus{
+  margin: 15px;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.btn{
+  background: none;
+}
+
+.btn a{
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(167, 74, 31, 0.938);
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 25px;
+}
+
+.icon-tel{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+  overflow: visible;
+}
+
+
+/* Section About Us */
+
+section .about-us{
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .title h2{
+  color: gray;
+}
+
+section .conteudo{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn2{
+  background: none;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn2 a{
+  display: block;
+  margin: 20px;
+  padding: 15px;
+  background-color: rgba(167, 74, 31, 0.938);
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 25px;
+}
+
+
+section .video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video img{
+  box-shadow: 0 0 5px 10px black;
+}
+
+/* Services */
+
+.services{
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  margin: 15px;
+  padding: 15px;
+}
+
+.card h1{
+  margin: 10px;
+}
+
+.card p{
+  color: gray;
+}
+
+/* Our projects  */
+
+
+
+.our-projetcts{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-projetcts{
+  margin: 20px;
+}
+
+.our-projetcts .title{
+margin-bottom: 20px;
+}
+.our-projetcts nav{
+  background-color: rgba(231, 227, 227, 0.836);
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.our-projetcts ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.our-projetcts ul li{
+padding: 15px;
+
+}
+
+.our-projetcts li a{
+  text-decoration: none;
+  padding: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.galeria{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.photo img{
+  margin: 20px;
+}
+
+/* Team */
+.team .title h1, h2{
+  color: rgb(56, 57, 58);
+}
+
+.team{
+  background: url(../../media/foto4.jpg);
+  background-size: cover;
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.membros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+div .card-membros{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+}
+
+.midia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.midia img {
+  width: 50px;
+  height: 50px;
+}
